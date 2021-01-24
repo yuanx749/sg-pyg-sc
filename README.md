@@ -13,7 +13,7 @@ pip install pynndescent
 pip install phate
 
 conda install -c conda-forge ipywidgets
-conda install pytorch torchvision cpuonly -c pytorch
+conda install pytorch==1.6.0 torchvision==0.7.0 cpuonly -c pytorch
 pip install torch-scatter==latest+cpu -f https://pytorch-geometric.com/whl/torch-1.6.0.html
 pip install torch-sparse==latest+cpu -f https://pytorch-geometric.com/whl/torch-1.6.0.html
 pip install torch-cluster==latest+cpu -f https://pytorch-geometric.com/whl/torch-1.6.0.html
